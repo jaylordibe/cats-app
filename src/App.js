@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container} from 'react-bootstrap';
-import AppRoute from './components/route/app-route';
+import AppRoute from './route/app-route';
 
 function App() {
     return (

@@ -3,7 +3,7 @@ import {Button, Card, Col, Form, Row, Spinner} from 'react-bootstrap';
 import React, {Component} from 'react';
 import PageUtil from '../../utils/page-util';
 
-export default class CatList extends Component {
+export default class CatListComponent extends Component {
 
     page = 1;
     selectedBreedId = '';

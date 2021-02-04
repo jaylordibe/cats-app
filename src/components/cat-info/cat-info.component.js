@@ -3,7 +3,7 @@ import {Button, Card, Col, Row, Spinner} from 'react-bootstrap';
 import React, {useEffect, useState} from 'react';
 import CatService from '../../services/cat.service';
 
-export default function CatInfo() {
+export default function CatInfoComponent() {
 
     const params = useParams();
     const catId = params ? params.catId : '';
